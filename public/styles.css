@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -29,9 +31,9 @@ body {
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
+    padding: 10px 20px;
     width: 240px;
-    margin: 16px;
+    margin: 10px;
     float: left;
 }
 
@@ -47,6 +49,60 @@ body {
     word-wrap: break-word;
 }
 
+.Note button {
+    float: right;
+    
+    background: none;
+    border: none;
+    color: orange;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 10%;
+    
+}
+
+
+
+.input {
+    position: relative;
+    width: 30%;
+    background-color: white;
+    margin: 30px auto 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px 20px;
+  
+}
+
+.input input, textarea{
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    margin: 5px 0px;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+   
+}
+
+.input input:focus,textarea:focus{
+    outline: none;
+}
+
+
+.input button {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    border: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+    
+}
+
 .Footer{
     position: fixed;
     text-align: center;
@@ -60,3 +116,27 @@ body {
     color: rgb(149, 149, 149);
     font-family: "McLaren", cursive;
 }
+
+button:hover {
+    background-color: rgb(90, 74, 28);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
